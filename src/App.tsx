@@ -1,26 +1,105 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useParams, Outlet, createBrowserRouter, RouterProvider, Route, NavLink } from "react-router-dom";
+import "./App.css";
+import Portfolio from './components/Portfolio'
+import Home from './components/Home'
+import Contact from './components/Contact'
+import AppBar from '@mui/material/AppBar';
+import CssBaseline from '@mui/material/CssBaseline';
+import Toolbar from '@mui/material/Toolbar';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+import ResponsiveAppBar from "./components/ResponsiveAppBar";
+import Quiz from './components/examples/QuizApp/QuizApp';
+import Pokemon from "./components/examples/Pokemon/Pokemon";
+import ToDo from "./components/examples/To-Do/ToDo";
+import LocalStorage from "./components/examples/LocalStorage/LocalStorage";
+import Interval from "./components/examples/Inteval/Interval";
+import ShoppingList from "./components/examples/ShoppingList/ShoppingList";
+import Slots from "./components/examples/Slots/Slots";
+import TicTacToe from "./components/examples/TicTacToe/TicTacToe";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+const Root = () => {
+    const theme = createTheme();
+
+    return (
+
+        <div className="container">
+            <div className="nav">
+                <ThemeProvider theme={theme}>
+                    <CssBaseline />
+                    <ResponsiveAppBar />
+                </ThemeProvider>
+            </div>
+            <div className="content">
+                <Outlet />
+            </div>
+            <div className="footer">
+
+            </div>
+        </div>
+    );
 }
 
-export default App;
+
+const App = () => {
+    const router = createBrowserRouter([
+        {
+            path: "/",
+            element: <Root />,
+            children: [
+                {
+                    path: "",
+                    element: <Home />
+                },
+                {
+                    path: "Portfolio",
+                    element: <Portfolio />
+                },
+                {
+                    path: "Contact",
+                    element: <Contact />
+                },
+                {
+                    path: "Quiz",
+                    element: <Quiz />
+                },
+                {
+                    path: "Pokemon",
+                    element: <Pokemon />
+                },
+                {
+                    path: "ToDo",
+                    element: <ToDo />
+                },
+                {
+                    path: "LocalStorage",
+                    element: <LocalStorage />
+                },
+                {
+                    path: "Interval",
+                    element: <Interval />
+                },
+                {
+                    path: "ShoppingList",
+                    element: <ShoppingList />
+                },
+                {
+                    path: "Slots",
+                    element: <Slots/>
+                },
+                {
+                    path: "TicTacToe",
+                    element: <TicTacToe/>
+                }
+            ]
+        }
+    ]);
+
+    return (
+        <div>
+            <RouterProvider router={router} />
+        </div>
+    )
+}
+
+export default App; 
