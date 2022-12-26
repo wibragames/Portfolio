@@ -16,6 +16,7 @@ import Interval from "./components/examples/Inteval/Interval";
 import ShoppingList from "./components/examples/ShoppingList/ShoppingList";
 import Slots from "./components/examples/Slots/Slots";
 import TicTacToe from "./components/examples/TicTacToe/TicTacToe";
+import ColorPicker from "./components/examples/ColorPicker/ColorPicker";
 
 
 const Root = () => {
@@ -90,6 +91,10 @@ const App = () => {
                 {
                     path: "TicTacToe",
                     element: <TicTacToe/>
+                },
+                {
+                    path: "ColorPicker",
+                    element: <ColorPicker/>
                 }
             ]
         }

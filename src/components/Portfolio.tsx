@@ -1,7 +1,5 @@
 import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
 import Button from '@mui/material/Button';
-import CameraIcon from '@mui/icons-material/PhotoCamera';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -10,21 +8,20 @@ import CssBaseline from '@mui/material/CssBaseline';
 import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Link from '@mui/material/Link';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Quiz from './examples/QuizApp/QuizApp';
 import Pokemon from './examples/Pokemon/Pokemon'
-import {useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import ToDo from './examples/To-Do/ToDo';
 import LocalStorage from './examples/LocalStorage/LocalStorage';
 import Interval from './examples/Inteval/Interval';
 import ShoppingList from './examples/ShoppingList/ShoppingList';
-import { border } from '@mui/system';
 import Slots from './examples/Slots/Slots';
 import TicTacToe from './examples/TicTacToe/TicTacToe';
+import ColorPicker from './examples/ColorPicker/ColorPicker';
 
 
 function Copyright() {
@@ -44,7 +41,7 @@ const cards = [
   {
     name: "Quiz",
     description: "This is a quiz we made. Try your best to know it all.",
-    element: <Quiz/>,
+    element: <Quiz />,
     path: "/Quiz",
   },
   {
@@ -56,7 +53,7 @@ const cards = [
   {
     name: "To Do",
     description: "In this app you can make your own to do list.",
-    element: <ToDo/>,
+    element: <ToDo />,
     path: "/ToDo"
   },
   {
@@ -68,33 +65,40 @@ const cards = [
   {
     name: "Interval",
     description: "This is an interval",
-    element: <Interval/>,
+    element: <Interval />,
     path: "/Interval"
   },
   {
     name: "Shopping List",
     description: "This app will help you to make a shopping list.",
-    element: <ShoppingList/>,
+    element: <ShoppingList />,
     path: "/ShoppingList"
-  }, 
+  },
   {
     name: "Slots",
     description: "Here you can use a slot machine. Lets see if you can Win!",
-    element: <Slots/>,
+    element: <Slots />,
     path: "/Slots"
   },
   {
     name: "TicTacToe",
     description: "Try playing Tic Tac Toe against someone. Lets see who will win.",
-    element: <TicTacToe/>,
+    element: <TicTacToe />,
     path: "/TicTacToe"
   },
- ];
+  {
+    name: "Color Picker",
+    description: "This ap will let you choose a color from a panel.",
+    element: <ColorPicker/>,
+    path: "/ColorPicker"
+  }
+];
 
 const theme = createTheme();
 
 export default function Album() {
-  let navigate = useNavigate();
+  const [inputValue, setInputValue] = React.useState<string>("");
+  const navigate = useNavigate();
 
   return (
     <ThemeProvider theme={theme}>
@@ -130,27 +134,68 @@ export default function Album() {
             </Stack>
           </Container>
         </Box>
-        <Container sx={{ py: 8 }} maxWidth="md">
+        <Container maxWidth="md" style={{textAlign:"center"}}>
           <Grid container spacing={4}>
-            {cards.map((card) => (
-              <Grid xs={12} sm={6} md={4}>
-                <Card
-                  sx={{ height: '100%', display: 'flex', flexDirection: 'row' }}
-                >
-                  <CardContent sx={{ flexGrow: 1 }}>
-                    <Typography gutterBottom variant="h5" component="h2">
-                      {card.name}
-                    </Typography>
-                    <Typography>
-                      {card.description}
-                    </Typography>
-                  </CardContent>
-                  <CardActions>
-                    <Button size="medium" onClick={() => navigate(card.path)}>View</Button>
-                  </CardActions>
-                </Card>
-              </Grid>
-            ))}
+            <Grid item xs={12} sm={6} md={12}>
+            <input
+              type={"text"}
+              value={inputValue}
+              onChange={(e) => setInputValue(e.target.value)}
+              style={{
+                width: "100%",
+                height: "50px",
+                fontSize: "20px",
+                padding: "10px",
+              }}
+            ></input>
+            </Grid>
+            </Grid>
+          </Container>
+          <Grid item xs={12} sm={6} md={4}></Grid>
+          <Container sx={{ py: 8 }} maxWidth="md">
+          {/* End hero unit */}
+          <Grid container spacing={4}>
+            {cards
+              .filter((card) => {
+                if (inputValue === "") {
+                  return card;
+                } else if (
+                  card.name.toLowerCase().includes(inputValue.toLowerCase())
+                ) {
+                  return card;
+                }
+              })
+              .map((card, index) => (
+                <Grid item key={index} xs={12} sm={6} md={4}>
+                  <Card
+                    sx={{
+                      height: "100%",
+                      display: "flex",
+                      flexDirection: "column",
+                    }}
+                  >
+                    <CardContent sx={{ flexGrow: 1 }}>
+                      <Typography gutterBottom variant="h5" component="h2">
+                        {card.name}
+                      </Typography>
+                      <Typography>{card.description}</Typography>
+                    </CardContent>
+                    <CardActions>
+                      <Button
+                        variant="contained"
+                        sx={{
+                          display: "flex",
+                          alignSelf: "center",
+                          margin: "0 auto",
+                        }}
+                        onClick={(e) => navigate(card.path)}
+                      >
+                        Watch
+                      </Button>
+                    </CardActions>
+                  </Card>
+                </Grid>
+              ))}
           </Grid>
         </Container>
       </main>

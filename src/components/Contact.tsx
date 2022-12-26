@@ -1,43 +1,134 @@
-import React from 'react';
-import Container from '@mui/material/Container';
-import { Box, Button, Grid, TextField } from '@mui/material';
+import * as React from "react";
+import Avatar from "@mui/material/Avatar";
+import Button from "@mui/material/Button";
+import CssBaseline from "@mui/material/CssBaseline";
+import TextField from "@mui/material/TextField";
+import Grid from "@mui/material/Grid";
+import Box from "@mui/material/Box";
+import ContactMailIcon from "@mui/icons-material/ContactMail";
+import Container from "@mui/material/Container";
+import { sendEmail } from "../services";
+import Confirmation from "./Confirmation";
 
-export default function Contact(props: any) {
-  const content = {
-    'header': 'Contact Me',
-    'description': 'If you have any questions, you can ask them right here.',
-    'terms': 'I agree to the terms of use and privacy policy.',
-    'primary-action': 'Submit',
-    ...props.content
+const Contact = () => {
+  const [sendedContact, setSendedContact] = React.useState<boolean>(false);
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const data = new FormData(event.currentTarget);
+    const name =
+      data.get("firstName")!.toString() +
+      " " +
+      data.get("lastName")!.toString();
+
+    sendEmail(
+      data.get("email")!.toString(),
+      name,
+      data.get("question")!.toString()
+    );
+
+    console.log({
+      email: data.get("email"),
+      name: name,
+      question: data.get("question"),
+    });
+
+    setSendedContact(true);
   };
 
   return (
-    <section>
-      <Container maxWidth="sm">
-          <Box>
-            <form noValidate>
+    <Container component="main" maxWidth="xs">
+      <CssBaseline />
+      <Box
+        sx={{
+          marginTop: 8,
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+        }}
+      >
+        {sendedContact ? (
+          <Confirmation />
+        ) : (
+          <>
+            <Avatar sx={{ m: 1, bgcolor: "primary.main" }}>
+              <ContactMailIcon />
+            </Avatar>
+            <Box
+              component="form"
+              noValidate
+              onSubmit={handleSubmit}
+              sx={{ mt: 3 }}
+            >
               <Grid container spacing={2}>
                 <Grid item xs={12} sm={6}>
-                  <TextField variant="outlined" required fullWidth autoComplete="fname" name="firstName" id="firstName" label="First name" />
+                  <TextField
+                    autoComplete="given-name"
+                    name="firstName"
+                    required
+                    fullWidth
+                    id="firstName"
+                    label="First Name"
+                    autoFocus
+                  />
                 </Grid>
                 <Grid item xs={12} sm={6}>
-                  <TextField variant="outlined" required fullWidth name="lastName" id="lastName" label="Last name" autoComplete="lname" />
+                  <TextField
+                    required
+                    fullWidth
+                    id="lastName"
+                    label="Last Name"
+                    name="lastName"
+                    autoComplete="family-name"
+                  />
                 </Grid>
                 <Grid item xs={12}>
-                  <TextField variant="outlined" required fullWidth name="email" id="email" label="Email address" autoComplete="email" />
+                  <TextField
+                    required
+                    fullWidth
+                    id="email"
+                    label="Email Address"
+                    name="email"
+                    autoComplete="email"
+                  />
                 </Grid>
                 <Grid item xs={12}>
-                  <TextField variant="outlined" required multiline rows={5} fullWidth autoComplete="message" name="message" id="message" label="Message" />
+                  <textarea
+                    style={{
+                      width: "100%",
+                      borderColor: "#ccc",
+                      borderRadius: "0.3rem",
+                      padding: "1rem",
+                      fontFamily: "'Roboto','Helvetica','Arial',sans-serif;",
+                      fontSize: "1rem",
+                      color: "rgba(0, 0, 0, 0.87)",
+                      backgroundColor: "rgba(0,0,0,0)",
+                    }}
+                    name="question"
+                    id="question"
+                    cols={30}
+                    rows={10}
+                    placeholder="Your question *"
+                    required
+                  ></textarea>
                 </Grid>
               </Grid>
-              <Box my={2}>
-                <Button type="submit" fullWidth variant="contained" color="primary">
-                  {content['primary-action']}
-                </Button>
-              </Box>
-            </form>
-          </Box>
-      </Container>
-    </section>
+              <Button
+                type="submit"
+                fullWidth
+                variant="contained"
+                sx={{ mt: 3, mb: 2 }}
+              >
+                Send email
+              </Button>
+              <Grid container justifyContent="flex-end">
+                <Grid item></Grid>
+              </Grid>
+            </Box>
+          </>
+        )}
+      </Box>
+    </Container>
   );
-}
+};
+
+export default Contact;
