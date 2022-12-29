@@ -3,7 +3,6 @@ import Button from '@mui/material/Button';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
 import CssBaseline from '@mui/material/CssBaseline';
 import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
@@ -12,18 +11,9 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import Link from '@mui/material/Link';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import Quiz from './examples/QuizApp/QuizApp';
-import Pokemon from './examples/Pokemon/Pokemon'
 import { useNavigate } from 'react-router-dom';
-import ToDo from './examples/To-Do/ToDo';
-import LocalStorage from './examples/LocalStorage/LocalStorage';
-import Interval from './examples/Inteval/Interval';
-import ShoppingList from './examples/ShoppingList/ShoppingList';
-import Slots from './examples/Slots/Slots';
-import TicTacToe from './examples/TicTacToe/TicTacToe';
-import ColorPicker from './examples/ColorPicker/ColorPicker';
 import DogImage from '../api/DogImage/DogImage';
-
+import DadJokes from '../api/Dadjoke/DadJokes';
 
 function Copyright() {
   return (
@@ -40,11 +30,17 @@ function Copyright() {
 
 const cards = [
   {
-    name: "DogImage",
+    name: "Dog Image",
     description: "In this api, you get random images of dogs.",
     element: <DogImage />,
     path: "/DogImage",
   },
+  {
+    name: "Dad Jokes",
+    description: "This API will get you random jokes.",
+    element: <DadJokes/>,
+    path: "/DadJokes"
+  }
 ];
 
 const theme = createTheme();
@@ -107,7 +103,7 @@ export default function Album() {
           <Grid item xs={12} sm={6} md={4}></Grid>
           <Container sx={{ py: 8 }} maxWidth="md">
           {/* End hero unit */}
-          <Grid container spacing={4}>
+          <Grid container spacing={3}>
             {cards
               .filter((card) => {
                 if (inputValue === "") {

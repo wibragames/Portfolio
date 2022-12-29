@@ -17,6 +17,7 @@ import TicTacToe from "./components/examples/TicTacToe/TicTacToe";
 import ColorPicker from "./components/examples/ColorPicker/ColorPicker";
 import DogImage from "./api/DogImage/DogImage";
 import Api from "./components/Api";
+import DadJokes from "./api/Dadjoke/DadJokes";
 
 
 const Root = () => {
@@ -104,6 +105,10 @@ const App = () => {
                     path: "DogImage",
                     element: <DogImage/>
                 },
+                {
+                    path: "DadJokes",
+                    element: <DadJokes/>
+                }
             ]
         }
     ]);
