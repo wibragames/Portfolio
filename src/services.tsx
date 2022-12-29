@@ -11,6 +11,6 @@ export const sendEmail = (email: string, name: string, message: string) => {
                 message: message,
                 to_name: "Bjarne"
             },
-            "oW8cZFj7xsg2ZVzK9"
+            "d5GLcB3GkbgaJM_-w"
         );
 }
