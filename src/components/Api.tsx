@@ -23,7 +23,6 @@ import Slots from './examples/Slots/Slots';
 import TicTacToe from './examples/TicTacToe/TicTacToe';
 import ColorPicker from './examples/ColorPicker/ColorPicker';
 import DogImage from '../api/DogImage/DogImage';
-import Games from '../api/HtmlToPdf/HtmlToPdf';
 
 
 function Copyright() {
@@ -46,12 +45,6 @@ const cards = [
     element: <DogImage />,
     path: "/DogImage",
   },
-  {
-    name: "Games",
-    decsription: "This api will make a pdf out of a html.",
-    element: <Games/>,
-    path: "/Games"
-  }
 ];
 
 const theme = createTheme();

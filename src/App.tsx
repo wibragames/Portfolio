@@ -3,9 +3,7 @@ import "./App.css";
 import Portfolio from './components/Portfolio'
 import Home from './components/Home'
 import Contact from './components/Contact'
-import AppBar from '@mui/material/AppBar';
 import CssBaseline from '@mui/material/CssBaseline';
-import Toolbar from '@mui/material/Toolbar';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import ResponsiveAppBar from "./components/ResponsiveAppBar";
 import Quiz from './components/examples/QuizApp/QuizApp';
@@ -19,7 +17,6 @@ import TicTacToe from "./components/examples/TicTacToe/TicTacToe";
 import ColorPicker from "./components/examples/ColorPicker/ColorPicker";
 import DogImage from "./api/DogImage/DogImage";
 import Api from "./components/Api";
-import Games from "./api/HtmlToPdf/HtmlToPdf";
 
 
 const Root = () => {
@@ -107,10 +104,6 @@ const App = () => {
                     path: "DogImage",
                     element: <DogImage/>
                 },
-                {
-                    path: "Games",
-                    element: <Games/>
-                }
             ]
         }
     ]);
