@@ -24,7 +24,9 @@ export interface INavigation {
 const pages : INavigation[] = [
     { name: 'Home', path: '/' },
     { name: 'Portfolio', path: '/Portfolio' },
+    { name: 'Apis', path: '/api'},
     { name: 'Contact', path: '/contact' },
+    
 ]
 
 const Nav = () => {

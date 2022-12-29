@@ -17,6 +17,9 @@ import ShoppingList from "./components/examples/ShoppingList/ShoppingList";
 import Slots from "./components/examples/Slots/Slots";
 import TicTacToe from "./components/examples/TicTacToe/TicTacToe";
 import ColorPicker from "./components/examples/ColorPicker/ColorPicker";
+import DogImage from "./api/DogImage/DogImage";
+import Api from "./components/Api";
+import Games from "./api/HtmlToPdf/HtmlToPdf";
 
 
 const Root = () => {
@@ -61,6 +64,10 @@ const App = () => {
                     element: <Contact />
                 },
                 {
+                    path: "Api",
+                    element: <Api/>
+                },
+                {
                     path: "Quiz",
                     element: <Quiz />
                 },
@@ -95,6 +102,14 @@ const App = () => {
                 {
                     path: "ColorPicker",
                     element: <ColorPicker/>
+                },
+                {
+                    path: "DogImage",
+                    element: <DogImage/>
+                },
+                {
+                    path: "Games",
+                    element: <Games/>
                 }
             ]
         }
