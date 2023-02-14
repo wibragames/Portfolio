@@ -1,10 +1,26 @@
+import { ImageListItem } from '@mui/material';
 import React from 'react';
 import BlogPostList from './BlogPostList';
+import './styles.css';
 
 function BlogPage(): JSX.Element {
   return (
     <div className="blog-page">
-      <h1>My Blog</h1>
+
+      <h1>StageBlog</h1>
+      <ImageListItem
+        sx={{
+          bgcolor: "background.paper",
+          width: 150,
+          alignItems: "center"
+        }}
+      >
+        <img
+          src={"./logo_inuits.svg"}
+          alt={"My Picture"}
+          loading="lazy"
+        />
+      </ImageListItem>
       <BlogPostList />
     </div>
   );
