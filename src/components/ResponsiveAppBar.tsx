@@ -26,6 +26,7 @@ const pages : INavigation[] = [
     { name: 'Portfolio', path: '/Portfolio' },
     { name: 'Apis', path: '/api'},
     { name: 'Contact', path: '/contact' },
+    { name: 'Blog', path: '/BlogPage'}
     
 ]
 
