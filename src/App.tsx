@@ -19,6 +19,7 @@ import DogImage from "./api/DogImage/DogImage";
 import Api from "./components/Api";
 import DadJokes from "./api/Dadjoke/DadJokes";
 import BlogPage from "./components/BlogPage";
+import About from "./components/About";
 
 
 const Root = () => {
@@ -111,8 +112,12 @@ const App = () => {
                     element: <DadJokes/>
                 },
                 {
-                    path: "BlogPage",
+                    path: "Blog",
                     element: <BlogPage/>
+                },
+                {
+                    path: "About",
+                    element: <About/>
                 }
             ]
         }
