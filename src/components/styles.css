@@ -63,3 +63,11 @@ hr {
 .blog-post .meta a:hover {
   text-decoration: underline;
 }
+
+p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 300px;
+  margin-right: 300px;
+}
