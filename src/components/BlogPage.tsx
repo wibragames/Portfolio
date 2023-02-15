@@ -8,21 +8,6 @@ function BlogPage(): JSX.Element {
     <div className="blog-page">
 
       <h1>StageBlog</h1>
-      <ImageListItem
-        sx={{
-          bgcolor: "background.paper",
-          width: 150,
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center'
-        }}
-      >
-        <img
-          src={"./logo_inuits.svg"}
-          alt={"My Picture"}
-          loading="lazy"
-        />
-      </ImageListItem>
       <BlogPostList />
     </div>
   );
