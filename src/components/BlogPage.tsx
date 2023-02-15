@@ -12,7 +12,9 @@ function BlogPage(): JSX.Element {
         sx={{
           bgcolor: "background.paper",
           width: 150,
-          alignItems: "center"
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center'
         }}
       >
         <img

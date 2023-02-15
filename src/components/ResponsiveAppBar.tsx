@@ -7,14 +7,11 @@ import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
-import SearchIcon from '@mui/icons-material/Search';
 import { NavLink, useNavigate } from 'react-router-dom';
-import { alpha, InputBase, styled } from '@mui/material';
+import { ImageListItem, } from '@mui/material';
 
 export interface INavigation {
   name: string,
@@ -47,7 +44,18 @@ const Nav = () => {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+        <ImageListItem
+                    sx={{
+                        width: 100,
+                        mr: 35
+                    }}
+                >
+                    <img
+                        src={'./inuits.png'}
+                        alt={'My Picture'}
+                        loading='lazy'
+                    />
+                </ImageListItem>
           <Typography
             variant="h6"
             noWrap

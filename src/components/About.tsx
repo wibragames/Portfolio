@@ -1,7 +1,5 @@
 import { ImageListItem } from '@mui/material';
-import { padding } from '@mui/system';
 import React from 'react';
-import { URL } from 'url';
 
 function About() {
     return (
@@ -21,7 +19,7 @@ function About() {
                     />
                 </ImageListItem>
             </div >
-            <p>On this page you will find info about the company I have my internship at, Inuits.</p>
+            <p>On this page you will find info about the company I have my internship at Inuits.</p>
             <p>Inuits is an open source minded company that started in Belgium in 2007. The offices Inuits has are called igloos, as the typical inuit buildings are called.</p>
             <p>Meanwhile Inuits has grown to a company with Igloos all over Europe.</p>
             <p></p>
@@ -50,7 +48,7 @@ function About() {
                     </li>
                 </ul>
             </div>
-            <p>
+            <p className='paragraph'>
                 I am working mostly in th Igloo in Brasschaat, but I will go to the other Igloos in Belgium at least once durring my internship. I will be working with a 
                 team on a DAMS project. This stands for Digital Assecment Management System. The main one I will be working at will contain the works form musea in Ghent 
                 and Antwerp as assets. 

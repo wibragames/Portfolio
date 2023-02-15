@@ -64,7 +64,7 @@ hr {
   text-decoration: underline;
 }
 
-p {
+.paragraph {
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
