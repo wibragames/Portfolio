@@ -4,5 +4,11 @@
         "title": "Stage Week 1",
         "date": "2023-02-06 tot 2023-02-10",
         "content": "Deze week zijn we begonnen met onze stage. De eerste dag was het voorl de bedoeling dat we het bedrijf wat leerde kennen en onze computers in orde maakten. De tweede dag hebben we dan meegedaan met onze eerste dagelijkse stand-Up meeting. Nadien heb ik men computer verder ingesteld. Op dag 3 heb ik dan mijn eerste opdracht gekregen om de breadcrumbs in het project aan te passen. Hiervoor heb ik eerst een docker container moeten opzetten en een beetje uizoeken hoe vue werkt. Hiermee ben ik dan ook de rest van de week bezig geweest naast de dagelijkse standup meetings."
+    },
+    {
+        "id": 1,
+        "title": "Stage Week 2",
+        "date": "2023-02-13 tot 2023-02-17",
+        "content": "De tweede week ben ik vooral bezig geweest met het inwerken op de mannier dat hier gewerkt word. Elke dag heb ik uiteraard meegedaan met de standup meetings. Ik heb me ook extra opzoekingswerk gedaan voor VUE. Dit lijkt wel wat op react, maar het is toch wat wennen om te gebruiken. Dit begint wel steeds beter te gaan ook. Voor de rest heb ik verder gewerkt aan de frontend voor de header van ons project. "
     }
-]
+]    

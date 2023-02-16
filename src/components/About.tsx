@@ -51,7 +51,7 @@ function About() {
             <p className='paragraph'>
                 I am working mostly in th Igloo in Brasschaat, but I will go to the other Igloos in Belgium at least once durring my internship. I will be working with a 
                 team on a DAMS project. This stands for Digital Assecment Management System. The main one I will be working at will contain the works form musea in Ghent 
-                and Antwerp as assets. 
+                and Antwerp as assets.
             </p>
         </div>
     );
