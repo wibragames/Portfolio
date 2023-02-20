@@ -42,8 +42,7 @@ const Home = () => {
                 <div>
                   <div>
                     <div>
-                      <h1>Bjarne Van Looke</h1>
-                      <h3>Portfolio</h3>
+                      <h3>Who am I?</h3>
                       <p>Hello and welcome to my portfolio page. My name is Bjarne Van Looke and I am a Programming student at AP in Antwerp.
                         I like to go cycling and game in my free time. On this portfolio you can watch some things I made durring Web Frameworks.
                         You can also follow what I do at my internship at Inuits. On the about page you can find some information about the company.

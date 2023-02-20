@@ -9,6 +9,12 @@
         "id": 2,
         "title": "Stage Week 2",
         "date": "2023-02-13 tot 2023-02-17",
-        "content": "De tweede week ben ik vooral bezig geweest met het inwerken op de mannier dat hier gewerkt word. Elke dag heb ik uiteraard meegedaan met de standup meetings. Ik heb me ook extra opzoekingswerk gedaan voor VUE. Dit lijkt wel wat op react, maar het is toch wat wennen om te gebruiken. Dit begint wel steeds beter te gaan ook. Voor de rest heb ik verder gewerkt aan de frontend voor de header van ons project. "
+        "content": "De tweede week ben ik vooral bezig geweest met het inwerken op de mannier dat hier gewerkt word. Elke dag heb ik uiteraard meegedaan met de standup meetings. Ik heb me ook extra opzoekingswerk gedaan voor VUE. Dit lijkt wel wat op react, maar het is toch wat wennen om te gebruiken. Dit begint wel steeds beter te gaan ook. Voor de rest heb ik verder gewerkt aan de frontend voor de header van ons project."
+    },
+    {
+        "id": 3,
+        "title": "Stage Week 3",
+        "date": "2023-02-20 tot 2023-02-24",
+        "content": "Deze week is weer begonnen met een DAMS meating. Daarna hebben we wwn nieuwe taak gekregen voor de rest van de week omdat onze begeleiders op vakantie gaan. Deze week ben ik ook begonnen met het leren van docker omdat dit in het project gebruikt wordt en het handig is om daar meer over te weten om mee te kunnen zijn met de werking van het project."
     }
 ]    

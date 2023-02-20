@@ -10,7 +10,7 @@ function BlogPost({ title, date, content }: BlogPostProps): JSX.Element {
   return (
     <div className="blog-post">
       <h2>{title}</h2>
-      <p>{date}</p>
+      <h3>{date}</h3>
       <p>{content}</p>
     </div>
   );
