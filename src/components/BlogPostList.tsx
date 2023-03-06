@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import BlogPost from './BlogPost';
-import CreatePostForm from './CreatePostForm';
 import blogPosts from './blog-posts.json';
 
 interface BlogPost {

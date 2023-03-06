@@ -15,6 +15,12 @@
         "id": 3,
         "title": "Stage Week 3",
         "date": "2023-02-20 tot 2023-02-24",
-        "content": "Deze week is weer begonnen met een DAMS meating. Daarna hebben we wwn nieuwe taak gekregen voor de rest van de week omdat onze begeleiders op vakantie gaan. Deze week ben ik ook begonnen met het leren van docker omdat dit in het project gebruikt wordt en het handig is om daar meer over te weten om mee te kunnen zijn met de werking van het project."
+        "content": "Deze week is weer begonnen met een DAMS meating. Daarna hebben we wwn nieuwe taak gekregen voor de rest van de week omdat onze begeleiders op vakantie gaan. Deze week ben ik ook begonnen met het leren van docker omdat dit in het project gebruikt wordt en het handig is om daar meer over te weten om mee te kunnen zijn met de werking van het project. Voor het DAMS project heb ik een component en een composable gemaakt van de breadcrumb die in de header zat. Hierdoor moet je nu gewoon de component aanroepen in d header."
+    },
+    {
+        "id": 4,
+        "title": "Stage Week 4",
+        "date": "2023-02-27 tot 2023-03-03",
+        "content": "Tijdends de vierde week van de stage ben ik vooral verder gegaan met het werken aan de header. Hiervoor ben ik aan het uitzoeken geweeest hoe ik een dropdown krijg in een breadcrumb. Ook heb ik al even beken hoe ik deze breadcrumb uiteindelijk ga kunnen testen, want dit is een van de taken die ik heb gekregen. Het testen in vue is volledig nieuw dus hier heb ik vooral wat over opgezocht ne ga ik volgende week in practijk gaan toepassen."
     }
 ]    
