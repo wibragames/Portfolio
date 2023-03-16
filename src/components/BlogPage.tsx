@@ -9,7 +9,6 @@ function BlogPage(): JSX.Element {
     <div className="blog-page">
       <h1>StageBlog</h1>
       <BlogPostList />
-      <BlogForm />
     </div>
   );
 }
