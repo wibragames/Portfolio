@@ -22,5 +22,17 @@
         "title": "Stage Week 4",
         "date": "2023-02-27 tot 2023-03-03",
         "content": "Tijdends de vierde week van de stage ben ik vooral verder gegaan met het werken aan de header. Hiervoor ben ik aan het uitzoeken geweeest hoe ik een dropdown krijg in een breadcrumb. Ook heb ik al even beken hoe ik deze breadcrumb uiteindelijk ga kunnen testen, want dit is een van de taken die ik heb gekregen. Het testen in vue is volledig nieuw dus hier heb ik vooral wat over opgezocht ne ga ik volgende week in practijk gaan toepassen."
+    },
+    {
+        "id": 5,
+        "title": "Stage Week 5",
+        "date": "2023-03-06 tot 2023-03-10",
+        "content": "Deze week zijn we begonnen met een korte evaluatie van onze stagementoren over hoe het to dit moment is gegaan. Hierna ben ik verder gegaan met het werken aan de header. Het doel was om deze week de breadcrumb functioneel werkende te krijgen. Woensdag hadden we dan intervisie op school over de stage. Daarna ben ik helaas donderdag en vrijdag ziek geweest waardoor ik niet verde heb kunnen werken."
+    },
+    {
+        "id": 6,
+        "title": "Stage Week 6",
+        "date": "2023-02-13 tot 2023-03-17",
+        "content": "Deze week heb ik eerst maandag de functionaliteit van de breadcrumb volledig afgewerkt. Hierna heb ik mezelf ingelezen over hoe testen met vitest in zijn werk gaat. Op dinsdag ben ik begonnen met dit te leren, woensdag hadden we dan een jobbeurs en heb ik dus niet voor stage gewerkt. Donderdag en vrijdag heb ik dan verder gegaan met testen en heb ik dus een test gemaakt om de code van de breadcrumb die ik in de header heb gemaakt te testen. Nadat ik dit gedaan had heb ik een merch request gestuurd zodat mijn code kan worden nagekeken en op de main geimplementeerd kan worden."
     }
 ]    
