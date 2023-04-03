@@ -32,7 +32,19 @@
     {
         "id": 6,
         "title": "Stage Week 6",
-        "date": "2023-02-13 tot 2023-03-17",
+        "date": "2023-03-13 tot 2023-03-17",
         "content": "Deze week heb ik eerst maandag de functionaliteit van de breadcrumb volledig afgewerkt. Hierna heb ik mezelf ingelezen over hoe testen met vitest in zijn werk gaat. Op dinsdag ben ik begonnen met dit te leren, woensdag hadden we dan een jobbeurs en heb ik dus niet voor stage gewerkt. Donderdag en vrijdag heb ik dan verder gegaan met testen en heb ik dus een test gemaakt om de code van de breadcrumb die ik in de header heb gemaakt te testen. Nadat ik dit gedaan had heb ik een merch request gestuurd zodat mijn code kan worden nagekeken en op de main geimplementeerd kan worden."
+    },
+    {
+        "id": 7,
+        "title": "Stage Week 7",
+        "date": "2023-03-20 tot 2023-03-23",
+        "content": "Maandag is de volledige code van de breadcrumb die ik heb geschreven gereviewed via de merch request die vrijdag had aangemaakt en heb ik feedback gekregen over hoe ik mijn code nog kan verbeteren. Daarna heb ik er eerst voor gezorgd dat da master nog werkt als ik mijn branch zou toevoegen. Ik heb daarna mijn breadcrumb gerefactored. Dan heb ik bekeken hoe tailwind exact werkt want wij moeten voor het project tailwind gebruiken. Dit heb ik dan ook toegevoegd aan mijn breadcrumb component. Daarna heb ik nog een paar extra errors moeten oplossen. Op dinsdag heb ik na de stagedag ook nog meegedaan aan het Open Source Cafe in Antwerpen. Dit is een event waar eerst presentaties worden gegeven over open source en daarna kan je socializen met andere mensen die dezefde intresses hebben."
+    },
+    {
+        "id": 8,
+        "title": "Stage Week 8",
+        "date": "2023-03-27 tot 2023-03-31",
+        "content": "Maandag heb ik ervoor gezorgd dat mijn code volledig in order was om te mergen naar de master branch. Hieraan heb ik ook nog extra styling toegevoegd. Disndag heb ik dan mijn branch gemerged en ben ik zo goed als heel de dag bezig geweest met het fixen van merge conflicts. Op woensdag ben ik dan begonnen aan het stylen van de breadcrumb zoals het eruit moet zien volgens het voorbeeld. Hieraan heb ik de rest van de week ook verder gewerkt. Uiteraard heb ik ook elke dag meegedaan met de standup."
     }
 ]    
