@@ -57,6 +57,12 @@
         "id": 10,
         "title":"Stage Week 10",
         "date":"2023-04-09 tot 2023-04-14",
-        "content": "Maandag was het een feestdag. Dinsdag en woensdag heb ik dan gewerkt om de styling van de breadcrumb volledig af te krigen. Hier heb ik een tijdje mee vast gezeten, maar na uitleg te krijgen ben ik hier toch verder mee geraakt."
+        "content": "Maandag was het een feestdag. Dinsdag en woensdag heb ik dan gewerkt om de styling van de breadcrumb volledig af te krijgen. Hier heb ik een tijdje mee vast gezeten, maar na uitleg te krijgen ben ik hier toch verder mee geraakt. Ook ben ik begonen met het optimaliseren van de styling gewerkt."
+    },
+    {
+        "id": 11,
+        "title": "Stage week 11",
+        "date": "2023-04-17 tot 2023-04-21",
+        "content": "Deze week heb ik vooral aan de styling gewerkt. Hiervoor heb ik weer tailwind css gebruikt. Ik heb de styling van de upload gedaan en ook extra styling voor de list en de grid views. Donderdag had ik dan intervisie op school en ik ook maar een halve dag gewerkt. Op het einde van de week was de sttyling voor deze onderdelen dan wel ongeveer in orde."
     }
 ]    
