@@ -70,5 +70,11 @@
         "title": "Stage week 12",
         "date": "2023-04-24 tot 2023-04-28",
         "content": "Deze week ben ik bezig geweest met het optimaliseren van de breadcrumb nadat ik hier tips voor had gekregen hoe ik dit nog beter kon doen. Ook heb ik ervoor gezorgd dat de breadcrumb checkt op uuid in plaats van op entitytitle om te checken of er items al aanwezig zijn in de breadcrumb. Ook heb ik een korte presentatie gemaakt om me voor te stellen aan de rest van het bedrijf in Belgie. Deze presentatie heb ik dan op vrijdag gegeven. Het was Last Friday binnen het bedrijf en dan komt iedereen van over heel Belgie samen om projecten te overlopen en dan ook interesante workshops met elkaar te doen. Dit was zeer interesant om ook mensen van andere kantoren in Belgie te kunnen ontmoeten."
+    },
+    {
+        "id": 13,
+        "title":"Stage Week 13",
+        "date": "2023-05-02 tot 2023-05-05",
+        "content": "In het begin van deze week is er een code review geweest van de breadcrumb. Deze was goed maar er waren nog een paar dingen die ik beter kon maken zodat het dynamisch bruikbaar is. Deze week heb ik dus de breadcrumb dan uiteindelijk afgewerkt en daarna heb ik nog gekeken dat alle styling in orde was. Maandag heb ik niet gewerkt omdat het 1 mei was."
     }
 ]    
