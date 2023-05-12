@@ -76,5 +76,11 @@
         "title":"Stage Week 13",
         "date": "2023-05-02 tot 2023-05-05",
         "content": "In het begin van deze week is er een code review geweest van de breadcrumb. Deze was goed maar er waren nog een paar dingen die ik beter kon maken zodat het dynamisch bruikbaar is. Deze week heb ik dus de breadcrumb dan uiteindelijk afgewerkt en daarna heb ik nog gekeken dat alle styling in orde was. Maandag heb ik niet gewerkt omdat het 1 mei was."
+    },
+    {
+        "id": 14,
+        "title": "Stage Week 14",
+        "date": "2023-05-08 tot 2023-05-12",
+        "content": "Deze week ben ik begonnen met het maken van een fuzzy search. Hiervoor moet ik zorgen dat er een nieuwe pagina opent wanneer ik op de searchbar klik. Hier moeten dan de assets en de musea kunnen opzoeken in een lijst. Dit probeer ik te doen door de asset en de mediafile library's samen te voegen zodat deze beide getoond kunnen worden in de search."
     }
 ]    
