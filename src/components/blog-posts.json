@@ -82,5 +82,11 @@
         "title": "Stage Week 14",
         "date": "2023-05-08 tot 2023-05-12",
         "content": "Deze week ben ik begonnen met het maken van een fuzzy search. Hiervoor moet ik zorgen dat er een nieuwe pagina opent wanneer ik op de searchbar klik. Hier moeten dan de assets en de musea kunnen opzoeken in een lijst. Dit probeer ik te doen door de asset en de mediafile library's samen te voegen zodat deze beide getoond kunnen worden in de search."
+    },
+    {
+        "id": 15,
+        "title":"Stage Week 15",
+        "date": "2023-05-15 tot 2023-05-19",
+        "content": "In deze laatste week van men stageperiode heb ik verder gewerkt aan de search. Ik heb hiervan een modal gemaakt zodat als je iets zoekt er een halve pagina open gaat met een lijst van wat je zoekt. Ik heb hieraan zo ver mogelijk gewerkt. Het is uiteindelijk niet volledig af geraakt maar het grootste deel van wat het moest zijn was wel oke."
     }
-]    
+]
