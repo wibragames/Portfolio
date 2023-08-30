@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "title": "Stage Week 1",
+        "date": "2023-02-06 tot 2023-02-10",
+        "content": "Deze week zijn we begonnen met onze stage. De eerste dag was het voorl de bedoeling dat we het bedrijf wat leerde kennen en onze computers in orde maakten. De tweede dag hebben we dan meegedaan met onze eerste dagelijkse stand-Up meeting. Nadien heb ik men computer verder ingesteld. Op dag 3 heb ik dan mijn eerste opdracht gekregen om de breadcrumbs in het project aan te passen. Hiervoor heb ik eerst een docker container moeten opzetten en een beetje uizoeken hoe vue werkt. Hiermee ben ik dan ook de rest van de week bezig geweest naast de dagelijkse standup meetings."
+    },
+    {
+        "id": 2,
+        "title": "Stage Week 2",
+        "date": "2023-02-13 tot 2023-02-17",
+        "content": "De tweede week ben ik vooral bezig geweest met het inwerken op de mannier dat hier gewerkt word. Elke dag heb ik uiteraard meegedaan met de standup meetings. Ik heb me ook extra opzoekingswerk gedaan voor VUE. Dit lijkt wel wat op react, maar het is toch wat wennen om te gebruiken. Dit begint wel steeds beter te gaan ook. Voor de rest heb ik verder gewerkt aan de frontend voor de header van ons project."
+    },
+    {
+        "id": 3,
+        "title": "Stage Week 3",
+        "date": "2023-02-20 tot 2023-02-24",
+        "content": "Deze week is weer begonnen met een DAMS meating. Daarna hebben we wwn nieuwe taak gekregen voor de rest van de week omdat onze begeleiders op vakantie gaan. Deze week ben ik ook begonnen met het leren van docker omdat dit in het project gebruikt wordt en het handig is om daar meer over te weten om mee te kunnen zijn met de werking van het project. Voor het DAMS project heb ik een component en een composable gemaakt van de breadcrumb die in de header zat. Hierdoor moet je nu gewoon de component aanroepen in d header."
+    },
+    {
+        "id": 4,
+        "title": "Stage Week 4",
+        "date": "2023-02-27 tot 2023-03-03",
+        "content": "Tijdends de vierde week van de stage ben ik vooral verder gegaan met het werken aan de header. Hiervoor ben ik aan het uitzoeken geweeest hoe ik een dropdown krijg in een breadcrumb. Ook heb ik al even beken hoe ik deze breadcrumb uiteindelijk ga kunnen testen, want dit is een van de taken die ik heb gekregen. Het testen in vue is volledig nieuw dus hier heb ik vooral wat over opgezocht ne ga ik volgende week in practijk gaan toepassen."
+    },
+    {
+        "id": 5,
+        "title": "Stage Week 5",
+        "date": "2023-03-06 tot 2023-03-10",
+        "content": "Deze week zijn we begonnen met een korte evaluatie van onze stagementoren over hoe het to dit moment is gegaan. Hierna ben ik verder gegaan met het werken aan de header. Het doel was om deze week de breadcrumb functioneel werkende te krijgen. Woensdag hadden we dan intervisie op school over de stage. Daarna ben ik helaas donderdag en vrijdag ziek geweest waardoor ik niet verde heb kunnen werken."
+    },
+    {
+        "id": 6,
+        "title": "Stage Week 6",
+        "date": "2023-03-13 tot 2023-03-17",
+        "content": "Deze week heb ik eerst maandag de functionaliteit van de breadcrumb volledig afgewerkt. Hierna heb ik mezelf ingelezen over hoe testen met vitest in zijn werk gaat. Op dinsdag ben ik begonnen met dit te leren, woensdag hadden we dan een jobbeurs en heb ik dus niet voor stage gewerkt. Donderdag en vrijdag heb ik dan verder gegaan met testen en heb ik dus een test gemaakt om de code van de breadcrumb die ik in de header heb gemaakt te testen. Nadat ik dit gedaan had heb ik een merch request gestuurd zodat mijn code kan worden nagekeken en op de main geimplementeerd kan worden."
+    },
+    {
+        "id": 7,
+        "title": "Stage Week 7",
+        "date": "2023-03-20 tot 2023-03-23",
+        "content": "Maandag is de volledige code van de breadcrumb die ik heb geschreven gereviewed via de merch request die vrijdag had aangemaakt en heb ik feedback gekregen over hoe ik mijn code nog kan verbeteren. Daarna heb ik er eerst voor gezorgd dat da master nog werkt als ik mijn branch zou toevoegen. Ik heb daarna mijn breadcrumb gerefactored. Dan heb ik bekeken hoe tailwind exact werkt want wij moeten voor het project tailwind gebruiken. Dit heb ik dan ook toegevoegd aan mijn breadcrumb component. Daarna heb ik nog een paar extra errors moeten oplossen. Op dinsdag heb ik na de stagedag ook nog meegedaan aan het Open Source Cafe in Antwerpen. Dit is een event waar eerst presentaties worden gegeven over open source en daarna kan je socializen met andere mensen die dezefde intresses hebben."
+    },
+    {
+        "id": 8,
+        "title": "Stage Week 8",
+        "date": "2023-03-27 tot 2023-03-31",
+        "content": "Maandag heb ik ervoor gezorgd dat mijn code volledig in order was om te mergen naar de master branch. Hieraan heb ik ook nog extra styling toegevoegd. Disndag heb ik dan mijn branch gemerged en ben ik zo goed als heel de dag bezig geweest met het fixen van merge conflicts. Op woensdag ben ik dan begonnen aan het stylen van de breadcrumb zoals het eruit moet zien volgens het voorbeeld. Hieraan heb ik de rest van de week ook verder gewerkt. Uiteraard heb ik ook elke dag meegedaan met de standup."
+    },
+    {
+        "id": 9,
+        "title": "Stage Week 9",
+        "date": "2023-04-04 tot 2023-04-07",
+        "content": "Maandag heb ik extra pagina's gekregen om te stylen. Ik moet nu ook de list stylen. Dit moet zowel voor de list in grid view als in list view nog gebeuren. Dit is waaraan ik deze week grotendeels heb gewerkt. Vrijdag heb ik niet gewerkt omdat ik mijn broer ben gaan bezoeken die op erasmus is in Ierland."
+    },
+    {
+        "id": 10,
+        "title":"Stage Week 10",
+        "date":"2023-04-09 tot 2023-04-14",
+        "content": "Maandag was het een feestdag. Dinsdag en woensdag heb ik dan gewerkt om de styling van de breadcrumb volledig af te krijgen. Hier heb ik een tijdje mee vast gezeten, maar na uitleg te krijgen ben ik hier toch verder mee geraakt. Ook ben ik begonen met het optimaliseren van de styling gewerkt."
+    },
+    {
+        "id": 11,
+        "title": "Stage week 11",
+        "date": "2023-04-17 tot 2023-04-21",
+        "content": "Deze week heb ik vooral aan de styling gewerkt. Hiervoor heb ik weer tailwind css gebruikt. Ik heb de styling van de upload gedaan en ook extra styling voor de list en de grid views. Donderdag had ik dan intervisie op school en ik ook maar een halve dag gewerkt. Op het einde van de week was de sttyling voor deze onderdelen dan wel ongeveer in orde."
+    },
+    {
+        "id": 12,
+        "title": "Stage week 12",
+        "date": "2023-04-24 tot 2023-04-28",
+        "content": "Deze week ben ik bezig geweest met het optimaliseren van de breadcrumb nadat ik hier tips voor had gekregen hoe ik dit nog beter kon doen. Ook heb ik ervoor gezorgd dat de breadcrumb checkt op uuid in plaats van op entitytitle om te checken of er items al aanwezig zijn in de breadcrumb. Ook heb ik een korte presentatie gemaakt om me voor te stellen aan de rest van het bedrijf in Belgie. Deze presentatie heb ik dan op vrijdag gegeven. Het was Last Friday binnen het bedrijf en dan komt iedereen van over heel Belgie samen om projecten te overlopen en dan ook interesante workshops met elkaar te doen. Dit was zeer interesant om ook mensen van andere kantoren in Belgie te kunnen ontmoeten."
+    },
+    {
+        "id": 13,
+        "title":"Stage Week 13",
+        "date": "2023-05-02 tot 2023-05-05",
+        "content": "In het begin van deze week is er een code review geweest van de breadcrumb. Deze was goed maar er waren nog een paar dingen die ik beter kon maken zodat het dynamisch bruikbaar is. Deze week heb ik dus de breadcrumb dan uiteindelijk afgewerkt en daarna heb ik nog gekeken dat alle styling in orde was. Maandag heb ik niet gewerkt omdat het 1 mei was."
+    },
+    {
+        "id": 14,
+        "title": "Stage Week 14",
+        "date": "2023-05-08 tot 2023-05-12",
+        "content": "Deze week ben ik begonnen met het maken van een fuzzy search. Hiervoor moet ik zorgen dat er een nieuwe pagina opent wanneer ik op de searchbar klik. Hier moeten dan de assets en de musea kunnen opzoeken in een lijst. Dit probeer ik te doen door de asset en de mediafile library's samen te voegen zodat deze beide getoond kunnen worden in de search."
+    },
+    {
+        "id": 15,
+        "title":"Stage Week 15",
+        "date": "2023-05-15 tot 2023-05-19",
+        "content": "In deze laatste week van men stageperiode heb ik verder gewerkt aan de search. Ik heb hiervan een modal gemaakt zodat als je iets zoekt er een halve pagina open gaat met een lijst van wat je zoekt. Ik heb hieraan zo ver mogelijk gewerkt. Het is uiteindelijk niet volledig af geraakt maar het grootste deel van wat het moest zijn was wel oke."
+    }
+]

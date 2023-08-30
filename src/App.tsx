@@ -18,6 +18,8 @@ import ColorPicker from "./components/examples/ColorPicker/ColorPicker";
 import DogImage from "./api/DogImage/DogImage";
 import Api from "./components/Api";
 import DadJokes from "./api/Dadjoke/DadJokes";
+import BlogPage from "./components/BlogPage";
+import About from "./components/About";
 
 
 const Root = () => {
@@ -108,6 +110,14 @@ const App = () => {
                 {
                     path: "DadJokes",
                     element: <DadJokes/>
+                },
+                {
+                    path: "Blog",
+                    element: <BlogPage/>
+                },
+                {
+                    path: "About",
+                    element: <About/>
                 }
             ]
         }
